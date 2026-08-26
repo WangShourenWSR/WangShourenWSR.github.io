@@ -2,10 +2,10 @@
 layout: page
 title: projects
 permalink: /projects/
-description: A growing collection of my projects. Still updating.
+description: Research directions, open-source systems, and selected earlier work.
 nav: true
 nav_order: 3
-display_categories: [work, fun]
+display_categories: [research, open-source, earlier work]
 horizontal: false
 ---
 

@@ -6,4 +6,3 @@ related_posts: false
 ---
 
 First version of my website!
-_site_previous
