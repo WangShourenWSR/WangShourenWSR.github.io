@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our paper [**Demystifying Hybrid Thinking**](https://arxiv.org/abs/2510.12680) was accepted to the **EMNLP 2026 Main Conference**. I am a co-first author.
+My first-author paper [**Demystifying Hybrid Thinking**](https://arxiv.org/abs/2510.12680) was accepted to the **EMNLP 2026 Main Conference**.
