@@ -2,9 +2,10 @@
 layout: page
 title: Mid-Think
 description: Training-free intermediate-budget reasoning through token-level triggers that induce or suppress thinking.
+img: assets/img/projects/mid-think/overview.png
 importance: 3
 category: research
-related_publications: true
+related_publications: false
 github: https://github.com/uservan/Mid-Think
 ---
 

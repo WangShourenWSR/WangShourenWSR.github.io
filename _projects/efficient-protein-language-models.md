@@ -2,9 +2,10 @@
 layout: page
 title: Efficient Protein Language Models
 description: A taxonomy and practical survey of data, architecture, training, and inference efficiency in protein language models.
+img: assets/img/projects/efficient-protein-language-models/cplm-vs-mplm.png
 importance: 5
 category: research
-related_publications: true
+related_publications: false
 github: https://github.com/SR-A-W/efficient-protein-language-model-survey
 ---
 

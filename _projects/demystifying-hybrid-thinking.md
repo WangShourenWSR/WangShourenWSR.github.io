@@ -2,9 +2,10 @@
 layout: page
 title: Demystifying Hybrid Thinking
 description: An empirical study of whether hybrid-thinking language models truly separate think and no-think behavior.
+img: assets/img/projects/demystifying-hybrid-thinking/motivation.png
 importance: 2
 category: research
-related_publications: true
+related_publications: false
 github: https://github.com/SR-A-W/demystifying-hybrid-thinking
 ---
 

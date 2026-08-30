@@ -2,9 +2,10 @@
 layout: page
 title: Agent Team Work Zone
 description: A persistent management layer for long-lived coding-agent teams, designed to preserve working state across compaction and restarts.
+img: assets/img/projects/agent-team-work-zone/session-persistence.png
 importance: 1
 category: open-source
-related_publications: true
+related_publications: false
 github: https://github.com/SR-A-W/agent-team-work-zone
 ---
 

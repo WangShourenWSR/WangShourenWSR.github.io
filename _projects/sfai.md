@@ -5,7 +5,7 @@ description: A two-tier system that combines diverse deep-reinforcement-learning
 img: assets/img/projects/sfai/cover.png
 importance: 4
 category: research
-related_publications: true
+related_publications: false
 github: https://github.com/SR-A-W/fighting-game-two-tier-agent-system
 ---
 

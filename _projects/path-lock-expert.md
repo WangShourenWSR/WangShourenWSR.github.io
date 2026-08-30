@@ -2,9 +2,10 @@
 layout: page
 title: Path-Lock Expert
 description: Architecture-level separation of think and no-think modes through deterministic control-token routing.
+img: assets/img/projects/path-lock-expert/architecture.png
 importance: 1
 category: research
-related_publications: true
+related_publications: false
 github: https://github.com/SR-A-W/path-lock-expert
 ---
 
