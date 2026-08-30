@@ -148,44 +148,54 @@
   ],
   "projects": [
     {
-      "name": "Controllable and Efficient Reasoning in LLMs",
-      "summary": "A research line spanning hybrid-thinking diagnosis, post-training, training-free intermediate-budget reasoning, and architecture-level mode separation.",
-      "startDate": "2025-01-01",
-      "endDate": "",
-      "url": "https://sr-a-w.github.io/projects/hybrid-thinking/",
-      "highlights": []
-    },
-    {
       "name": "Agent Team Work Zone",
-      "summary": "An open-source persistent management layer for long-lived Claude Code agent teams.",
-      "startDate": "2026-06-01",
+      "summary": "LLM Agents · Claude Code · Multi-Agent Workflow",
+      "startDate": "2026-04-01",
       "endDate": "",
-      "url": "https://github.com/SR-A-W/agent-team-work-zone",
-      "highlights": []
+      "url": "/projects/agent-team-work-zone/",
+      "highlights": [
+        "Built and maintain an open-source persistence layer for Claude Code's Agent Teams, whose teammates vanish on session restart with no native recovery",
+        "Designed per-agent workstations (role, working context, checkpoints, commitments) and a team registry, so one command rebuilds an interrupted team from disk",
+        "Shipped 13 slash-command skills and hook-driven auto-checkpointing across four public releases, maintaining parallel editions through a breaking Claude Code API change",
+        "Dogfood the layer end-to-end: the agent team that develops it runs on it"
+      ]
     },
     {
-      "name": "Efficient Protein Language Model Survey",
-      "summary": "A TMLR survey and maintained resource hub for efficient protein language models.",
-      "startDate": "2025-01-01",
-      "endDate": "",
-      "url": "https://github.com/SR-A-W/efficient-protein-language-model-survey",
-      "highlights": []
-    },
-    {
-      "name": "MemTrace",
-      "summary": "A benchmark for probing long-term memory systems at the level of individual knowledge points.",
+      "name": "Path-Lock Expert: Efficient Hybrid Thinking Architecture",
+      "summary": "LLMs · Reasoning",
       "startDate": "2026-01-01",
-      "endDate": "",
-      "url": "https://github.com/SR-A-W/MemTraceBench",
-      "highlights": []
+      "endDate": "2026-07-01",
+      "url": "/projects/path-lock-expert/",
+      "highlights": [
+        "Accepted at COLM 2026",
+        "Developed a parameter-efficient architecture approach to improve hybrid-thinking mode controllability (thinking vs. fast) without compromising overall task performance, together with an efficient training pipeline using curated data",
+        "Experiments on AIME24, MATH500, and GPQA-Diamond indicate improved mode separation and controllability with competitive accuracy, and greatly improved accuracy for no-think mode"
+      ]
     },
     {
-      "name": "Two-Tier Fighting-Game Agent System",
-      "summary": "A DRL and LLM-based system for modeling and improving player enjoyment in Street Fighter II.",
-      "startDate": "2023-08-01",
-      "endDate": "2025-04-01",
-      "url": "https://github.com/SR-A-W/fighting-game-two-tier-agent-system",
-      "highlights": []
+      "name": "Demystifying Hybrid Thinking",
+      "summary": "LLMs · Reasoning · Post-Training",
+      "startDate": "2025-09-01",
+      "endDate": "2026-02-01",
+      "url": "/projects/demystifying-hybrid-thinking/",
+      "highlights": [
+        "Accepted at EMNLP 2026 Main",
+        "Systematically analyzed the controllability of hybrid-thinking LLMs (think vs. no-think), showing incomplete mode separation and quantifying reasoning leakage via output length and reflection-token counts across MATH500, AIME24, GPQA, and MMLU-STEM",
+        "Conducted controlled SFT ablations on data scale (20k–140k), pairing strategy, think:no-think ratio, and two-phase training; proposed a practical recipe that preserves accuracy while cutting no-think verbosity (1085→585 tokens on MATH500) and reflection-token frequency (5917→522)"
+      ]
+    },
+    {
+      "name": "Mid-Think: Token-Level Reasoning Budget Control",
+      "summary": "LLMs · Reasoning · RL",
+      "startDate": "2025-11-01",
+      "endDate": "2026-01-01",
+      "url": "/projects/mid-think/",
+      "highlights": [
+        "Accepted at ACL 2026 Findings",
+        "Identified via attention analysis that hybrid-thinking mode switching is dominated by a few token-level triggers—‘Okay’ activates reasoning while &lt;/think&gt;\\n\\n suppresses it—rather than high-level Think/No-think instructions",
+        "Proposed Mid-Think, a training-free prompting format combining both triggers to achieve Pareto-optimal accuracy–length trade-offs (MATH500: 92.1% accuracy at 2589 tokens vs. 94.4% at 4904), outperforming fixed-token and prompt-based baselines across Qwen3-4B/8B/14B/32B",
+        "Applied Mid-Think to GRPO-based RL after SFT, cutting training time by about 15% (54h→46h) while improving Qwen3-8B on AIME (69.8%→72.4%) and GPQA (58.5%→61.1%)"
+      ]
     }
   ],
   "skills": [
