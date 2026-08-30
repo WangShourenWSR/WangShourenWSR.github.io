@@ -115,7 +115,7 @@
       "publisher": "arXiv",
       "releaseDate": "2026-07-24",
       "url": "https://arxiv.org/abs/2607.22917",
-      "summary": "A persistent operations layer for long-lived coding-agent teams."
+      "summary": "A persistent operations layer for long-lived Claude Code agent teams."
     },
     {
       "name": "Path-Lock Expert: Separating Reasoning Mode in Hybrid Thinking via Architecture-Level Separation",
@@ -157,7 +157,7 @@
     },
     {
       "name": "Agent Team Work Zone",
-      "summary": "An open-source persistent management layer for long-lived coding-agent teams.",
+      "summary": "An open-source persistent management layer for long-lived Claude Code agent teams.",
       "startDate": "2026-06-01",
       "endDate": "",
       "url": "https://github.com/SR-A-W/agent-team-work-zone",

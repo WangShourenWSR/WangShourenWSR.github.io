@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Agent Team Work Zone
-description: A persistent management layer for long-lived coding-agent teams, designed to preserve working state across compaction and restarts.
+description: A persistent management layer for long-lived Claude Code agent teams, designed to preserve working state across compaction and restarts.
 img: assets/img/projects/agent-team-work-zone/session-persistence.png
 importance: 1
 category: open-source
@@ -9,11 +9,13 @@ related_publications: false
 github: https://github.com/SR-A-W/agent-team-work-zone
 ---
 
+**Built specifically for Claude Code, Agent Team Work Zone extends its native Agent Teams with a persistent, easy-to-use workflow—so you can get more from Claude Code on complex, long-running projects.**
+
 ## The Persistence Problem
 
-Coding agents can now work as teams, but the teams themselves are still ephemeral. Teammate state lives inside a session and may disappear when a terminal closes, a process restarts, or a context window is compacted. On work that spans days or weeks, the human is forced to become the team's memory and scheduler: reconstructing roles, restating decisions, and rewriting handoff prompts after every interruption.
+Claude Code agents can now work as teams, but the teams themselves are still ephemeral. Teammate state lives inside a session and may disappear when a terminal closes, a process restarts, or a context window is compacted. On work that spans days or weeks, the human is forced to become the team's memory and scheduler: reconstructing roles, restating decisions, and rewriting handoff prompts after every interruption.
 
-Agent Team Work Zone (ATWZ) is a filesystem-based operations layer for long-lived coding-agent teams. It does not attempt to keep every agent process alive forever. Instead, it makes the information required to rebuild a team durable.
+Agent Team Work Zone (ATWZ) is a filesystem-based operations layer for long-lived Claude Code agent teams. It does not attempt to keep every agent process alive forever. Instead, it makes the information required to rebuild a team durable.
 
 <figure class="project-figure project-figure--narrow">
   <img src="{{ '/assets/img/projects/agent-team-work-zone/system-overview.png' | relative_url }}" alt="Agent Team Work Zone system overview">
