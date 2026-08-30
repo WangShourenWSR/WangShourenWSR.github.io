@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://wangshourenwsr.github.io/sitemap.xml
+Sitemap: https://sr-a-w.github.io/sitemap.xml
