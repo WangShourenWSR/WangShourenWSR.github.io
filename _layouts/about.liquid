@@ -43,7 +43,7 @@ layout: default
     <!-- News -->
     {% if page.news and site.announcements.enabled %}
       <h2>
-        <a href="{{ '/news/' | relative_url }}" style="color: inherit">news</a>
+        <strong><a href="{{ '/news/' | relative_url }}" style="color: inherit">News</a></strong>
       </h2>
       {% include news.liquid limit=true %}
     {% endif %}
@@ -51,7 +51,7 @@ layout: default
     <!-- Latest posts -->
     {% if site.latest_posts.enabled %}
       <h2>
-        <a href="{{ '/blog/' | relative_url }}" style="color: inherit">latest posts</a>
+        <strong><a href="{{ '/blog/' | relative_url }}" style="color: inherit">Latest Posts</a></strong>
       </h2>
       {% include latest_posts.liquid %}
     {% endif %}
@@ -59,10 +59,33 @@ layout: default
     <!-- Selected papers -->
     {% if page.selected_papers %}
       <h2>
-        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">selected publications</a>
+        <strong><a href="{{ '/publications/' | relative_url }}" style="color: inherit">Selected Publications</a></strong>
       </h2>
       {% include selected_papers.liquid %}
     {% endif %}
+
+    <!-- Academic service -->
+    <h2><strong>Service</strong></h2>
+    <ul>
+      <li>Reviewer, Conference on Language Modeling (COLM), 2026</li>
+    </ul>
+
+    <!-- Teaching assistant experience -->
+    <h2><strong>Teaching</strong></h2>
+    <ul>
+      <li>
+        <strong>
+          Teaching Assistant, CSDS 600 - Large Language Models,
+          <a href="https://case.edu/engineering/about/faculty-and-staff-directory/xiaotian-han">Prof. Xiaotian Han</a>,
+          Case Western Reserve University (Fall 2024)
+        </strong>
+      </li>
+      <li>
+        Teaching Assistant, CSDS 433 - Database Systems,
+        <a href="https://case.edu/engineering/about/faculty-and-staff-directory/yinghui-wu">Prof. Yinghui Wu</a>,
+        Case Western Reserve University (Fall 2026)
+      </li>
+    </ul>
 
     <!-- Social -->
     {% if page.social %}

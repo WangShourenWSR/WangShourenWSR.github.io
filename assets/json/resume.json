@@ -1,20 +1,25 @@
 {
   "basics": {
     "name": "Shouren Wang",
-    "label": "Computer Science Researcher",
+    "label": "PhD Student in Computer Science",
     "image": "",
     "email": "sxw992@case.edu",
-    "phone": "929-302-1790",
-    "url": "https://wangshourenwsr.github.io",
-    "summary": "A Ph.D. student in Computer Science, specializing in Machine Learning, creative AI, and Large Language Models.",
+    "phone": "",
+    "url": "https://sr-a-w.github.io",
+    "summary": "PhD student at Case Western Reserve University working on large language model reasoning, post-training, efficient language models, and AI agent systems.",
     "location": {
-      "address": "Brooklyn",
-      "postalCode": "NY 11201",
-      "city": "New York",
+      "address": "",
+      "postalCode": "",
+      "city": "Cleveland",
       "countryCode": "US",
-      "region": "New York"
+      "region": "Ohio"
     },
     "profiles": [
+      {
+        "network": "GitHub",
+        "username": "SR-A-W",
+        "url": "https://github.com/SR-A-W"
+      },
       {
         "network": "LinkedIn",
         "username": "Shouren Wang",
@@ -27,10 +32,11 @@
       "institution": "Case Western Reserve University",
       "location": "Cleveland, OH",
       "url": "https://case.edu",
-      "area": "Computer Science",
+      "area": "Computer Science; advised by Prof. Xiaotian Han and Prof. Vipin Chaudhary",
       "studyType": "PhD",
       "startDate": "2024-08-01",
-      "endDate": ""
+      "endDate": "2028-05-01",
+      "courses": ["GPA: 3.833/4.0"]
     },
     {
       "institution": "New York University",
@@ -45,7 +51,7 @@
       "institution": "Hunan University",
       "location": "Changsha, China",
       "url": "https://www.hnu.edu.cn",
-      "area": "Digital Media Technology (a computer vision, human-computer interaction and video game specialized Software Engineering)",
+      "area": "Digital Media Technology",
       "studyType": "Bachelor of Engineering",
       "startDate": "2015-09-01",
       "endDate": "2019-06-01"
@@ -56,123 +62,147 @@
       "name": "NYU Game Innovation Lab",
       "position": "Research Intern",
       "url": "https://gameinnovationlab.com",
+      "location": "Brooklyn, NY",
       "startDate": "2023-08-01",
       "endDate": "2024-07-31",
-      "summary": "Explored the research and methods for creative AI for video games, specifically focusing on developing game-play agents.",
+      "summary": "Researched creative AI and game-playing agents, with a focus on player enjoyment in fighting games.",
       "highlights": [
-        "Developed a PPO-based agent for Street Fighter II using deep reinforcement learning",
-        "Extended Stable-Baselines3 to support auxiliary objectives and multi-modal inputs"
+        "Developed a two-tier system combining diverse deep-reinforcement-learning agents with an LLM hyper-agent",
+        "Extended Stable-Baselines3 to support auxiliary objectives and multimodal inputs"
       ]
     },
     {
-      "name": "NYU CAN Lab",
-      "position": "M.S. Lab Member",
+      "name": "NYU Control and Network Lab",
+      "position": "Graduate Researcher",
       "url": "https://canlab.nyu.edu",
+      "location": "Brooklyn, NY",
       "startDate": "2022-09-01",
       "endDate": "2023-05-01",
-      "summary": "Worked on a master project exploring Sensorimotor Control and Reinforcement Learning methods.",
-      "highlights": [
-        "Proposed a state-augmentation mechanism to explain CNS's adaptability"
-      ]
+      "summary": "Studied reinforcement-learning methods for sensorimotor control.",
+      "highlights": ["Proposed state augmentation to model adaptation under delayed system dynamics"]
     },
     {
       "name": "AsiaInfo Technology",
       "position": "Research and Development Engineer",
       "url": "https://www.asiainfo.com",
+      "location": "Nanjing, China",
       "startDate": "2019-05-01",
       "endDate": "2020-09-30",
-      "summary": "Worked as a QA group member on the CTDI (EDR) project, focusing on performance testing and enhancement.",
-      "highlights": [
-        "Improved project efficiency by optimizing server and probe performance"
-      ]
+      "summary": "Worked on performance testing and system optimization for a large-scale telecommunications project.",
+      "highlights": ["Improved project efficiency by optimizing server and probe performance"]
     },
     {
       "name": "Institute of Computing Technology, Chinese Academy of Sciences",
       "position": "Research Technician",
       "url": "https://www.ict.ac.cn",
+      "location": "Beijing, China",
       "startDate": "2016-07-01",
       "endDate": "2016-08-31",
-      "summary": "Developed a computer vision algorithm using MATLAB and Locality Sensitivity Hashing to retrieve similar images from a large dataset.",
+      "summary": "Developed a computer-vision retrieval prototype using MATLAB and locality-sensitive hashing.",
       "highlights": []
-    }
-  ],
-  "projects": [
-    {
-      "name": "Longctx Benchmark V2 for Large Language Models",
-      "summary": "Developing an advanced benchmark of long-context capable approaches for large language models.",
-      "startDate": "2024-09-01",
-      "endDate": "",
-      "url": "",
-      "highlights": []
-    },
-    {
-      "name": "Fancy Play Agent",
-      "summary": "Developed a PPO Deep Reinforcement Learning model as a game-play agent for Street Fighter II. Extended Stable-Baselines3 to support auxiliary objectives and multi-modal inputs.",
-      "highlights": [
-        "Designed curriculum learning for improving agent performance"
-      ],
-      "startDate": "2023-09-01",
-      "endDate": "",
-      "url": ""
-    },
-    {
-      "name": "Simulation for Sensorimotor Control",
-      "summary": "Proposed a state-augmentation mechanism to explain the CNS's ability to adapt to unknown system dynamics in a force field.",
-      "startDate": "2022-09-01",
-      "endDate": "2023-05-01",
-      "url": ""
-    },
-    {
-      "name": "Majorization Method for Sparse Logistic Regression",
-      "summary": "Applied Majorization methods to calculate the quadratic upper bound for the log-likelihood objective function with L1 norm and compared optimization techniques.",
-      "startDate": "2023-02-01",
-      "endDate": "2023-05-01",
-      "url": ""
     }
   ],
   "publications": [
     {
-      "name": "Deep Learning Approach of Suit Classification Recognition",
-      "publisher": "Textile Research Journal",
-      "releaseDate": "2019-06-01",
-      "url": "",
-      "summary": "Research paper on applying deep learning techniques to suit classification and recognition."
+      "name": "Demystifying Hybrid Thinking: Can LLMs Truly Switch Between Think and No-Think?",
+      "publisher": "EMNLP 2026 Main Conference (co-first author)",
+      "releaseDate": "2026-08-24",
+      "url": "https://arxiv.org/abs/2510.12680",
+      "summary": "Diagnoses reasoning leakage in hybrid-thinking models and develops a post-training recipe for stronger mode control."
+    },
+    {
+      "name": "Agent Team Work Zone: An Automated, Persistent Workspace for Long-Lived Claude Code Agent Teams",
+      "publisher": "arXiv",
+      "releaseDate": "2026-07-24",
+      "url": "https://arxiv.org/abs/2607.22917",
+      "summary": "A persistent operations layer for long-lived coding-agent teams."
+    },
+    {
+      "name": "Path-Lock Expert: Separating Reasoning Mode in Hybrid Thinking via Architecture-Level Separation",
+      "publisher": "COLM 2026 (co-first author)",
+      "releaseDate": "2026-07-08",
+      "url": "https://arxiv.org/abs/2604.27201",
+      "summary": "Separates think and no-think behavior through deterministic, mode-specific feed-forward pathways."
+    },
+    {
+      "name": "Mid-Think: Training-Free Intermediate-Budget Reasoning via Token-Level Triggers",
+      "publisher": "Findings of ACL 2026 (co-first author)",
+      "releaseDate": "2026-07-02",
+      "url": "https://aclanthology.org/2026.findings-acl.299/",
+      "summary": "Introduces a training-free approach for intermediate-budget reasoning using token-level triggers."
+    },
+    {
+      "name": "A Survey on Efficient Protein Language Models",
+      "publisher": "Transactions on Machine Learning Research",
+      "releaseDate": "2026-06-30",
+      "url": "https://openreview.net/forum?id=PTReuOwsXz",
+      "summary": "Surveys data, architecture, training, and inference efficiency in protein language models."
+    },
+    {
+      "name": "Enhancing Player Enjoyment with a Two-Tier DRL and LLM-Based Agent System for Fighting Games",
+      "publisher": "arXiv",
+      "releaseDate": "2025-04-10",
+      "url": "https://arxiv.org/abs/2504.07425",
+      "summary": "Combines diverse DRL opponents with an LLM hyper-agent to improve fighting-game enjoyment."
+    }
+  ],
+  "projects": [
+    {
+      "name": "Controllable and Efficient Reasoning in LLMs",
+      "summary": "A research line spanning hybrid-thinking diagnosis, post-training, training-free intermediate-budget reasoning, and architecture-level mode separation.",
+      "startDate": "2025-01-01",
+      "endDate": "",
+      "url": "https://sr-a-w.github.io/projects/hybrid-thinking/",
+      "highlights": []
+    },
+    {
+      "name": "Agent Team Work Zone",
+      "summary": "An open-source persistent management layer for long-lived coding-agent teams.",
+      "startDate": "2026-06-01",
+      "endDate": "",
+      "url": "https://github.com/SR-A-W/agent-team-work-zone",
+      "highlights": []
+    },
+    {
+      "name": "Efficient Protein Language Model Survey",
+      "summary": "A TMLR survey and maintained resource hub for efficient protein language models.",
+      "startDate": "2025-01-01",
+      "endDate": "",
+      "url": "https://github.com/SR-A-W/efficient-protein-language-model-survey",
+      "highlights": []
+    },
+    {
+      "name": "MemTrace",
+      "summary": "A benchmark for probing long-term memory systems at the level of individual knowledge points.",
+      "startDate": "2026-01-01",
+      "endDate": "",
+      "url": "https://github.com/SR-A-W/MemTraceBench",
+      "highlights": []
+    },
+    {
+      "name": "Two-Tier Fighting-Game Agent System",
+      "summary": "A DRL and LLM-based system for modeling and improving player enjoyment in Street Fighter II.",
+      "startDate": "2023-08-01",
+      "endDate": "2025-04-01",
+      "url": "https://github.com/SR-A-W/fighting-game-two-tier-agent-system",
+      "highlights": []
     }
   ],
   "skills": [
     {
+      "name": "Research Areas",
+      "level": "",
+      "keywords": ["Large Language Models", "Reasoning and Post-Training", "AI Agents", "Reinforcement Learning", "Efficient Machine Learning"]
+    },
+    {
       "name": "Programming Languages",
       "level": "",
-      "keywords": [
-        "Python",
-        "Java",
-        "MATLAB",
-        "C++"
-      ]
+      "keywords": ["Python", "Java", "MATLAB", "C++"]
     },
     {
-      "name": "Libraries/Frameworks",
+      "name": "Libraries and Tools",
       "level": "",
-      "keywords": [
-        "PyTorch",
-        "Stable-Baselines3",
-        "OpenAI Gym",
-        "scikit-learn",
-        "NumPy",
-        "SciPy",
-        "pandas",
-        "Unity 3D"
-      ]
-    },
-    {
-      "name": "Developer Tools",
-      "level": "",
-      "keywords": [
-        "Git",
-        "Slurm",
-        "VS Code",
-        "Jupyter Notebook"
-      ]
+      "keywords": ["PyTorch", "Hugging Face Transformers", "Stable-Baselines3", "OpenAI Gym", "scikit-learn", "Slurm", "Git"]
     }
   ]
 }

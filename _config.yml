@@ -8,18 +8,18 @@ middle_name:
 last_name: Wang
 email: sxw992@case.edu
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+  Academic website of Shouren Wang, a Computer Science PhD student at Case Western Reserve University working on large language model reasoning, post-training, and AI agents.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
   Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
-keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
+keywords: Shouren Wang, large language models, LLM reasoning, post-training, hybrid thinking, AI agents, machine learning
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
-url: https://wangshourenwsr.github.io # the base hostname & protocol for your site
+url: https://sr-a-w.github.io # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/. Leave blank for root
-last_updated: false # set to true if you want to display last updated in the footer
+last_updated: true # set to true if you want to display last updated in the footer
 impressum_path: # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
 back_to_top: true # set to false to disable the back to top button
 
@@ -63,9 +63,9 @@ max_width: 930px
 # -----------------------------------------------------------------------------
 # Display links to the page with a preview object on social media.
 # see https://schema.org/docs/faq.html for more information
-serve_og_meta: false # Include Open Graph meta tags in the HTML head
-serve_schema_org: false # Include Schema.org in the HTML head
-og_image: # The site-wide (default for all links) Open Graph preview image
+serve_og_meta: true # Include Open Graph meta tags in the HTML head
+serve_schema_org: true # Include Schema.org in the HTML head
+og_image: assets/img/prof_pic.jpg # The site-wide (default for all links) Open Graph preview image
 
 # -----------------------------------------------------------------------------
 # Social integration
@@ -78,7 +78,7 @@ dblp_url: # your DBLP profile url
 discord_id: # your discord id (18-digit unique numerical identifier)
 facebook_id: # your facebook id
 flickr_id: # your flickr id
-github_username: WangShourenWSR # your GitHub user name
+github_username: SR-A-W # your GitHub user name
 gitlab_username: # your GitLab user name
 ieee_id: # your ieeexplore.ieee.org/author/id
 # inspirehep_id: 1010907 # Inspire HEP author ID
@@ -168,13 +168,7 @@ disqus_shortname: al-folio # put your disqus shortname
 # External sources.
 # If you have blog posts published on medium.com or other external sources,
 # you can display them in your blog by adding a link to the RSS feed.
-external_sources:
-  - name: medium.com
-    rss_url: https://medium.com/@al-folio/feed
-  - name: Google Blog
-    posts:
-      - url: https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/
-        published_date: 2024-05-14
+external_sources: []
 
 # -----------------------------------------------------------------------------
 # Newsletter
@@ -233,8 +227,8 @@ exclude:
   - _pages/dropdown.md
   - _pages/repositories.md
   - _pages/teaching.md
-  - _pages/publications.md
   - _pages/profiles.md
+  - assets/jupyter/
   - bin/
   - CONTRIBUTING.md
   - CUSTOMIZE.md
@@ -319,8 +313,8 @@ display_categories: ["external-services"] # these categories will be displayed o
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Einstein]
-  first_name: [Albert, A.]
+  last_name: [Wang]
+  first_name: [Shouren, S.]
 
   style: apa
   locale: en
@@ -342,6 +336,8 @@ scholar:
   query: "@*"
   group_by: year
   group_order: descending
+  sort_by: author_priority, publication_priority, month
+  order: ascending, ascending, descending
 
 # Display different badges withs stats for your publications
 # Customize badge behavior in _layouts/bib.liquid
@@ -362,6 +358,7 @@ filtered_bibtex_keywords:
     arxiv,
     award,
     award_name,
+    author_priority,
     bibtex_show,
     blog,
     code,
@@ -371,6 +368,7 @@ filtered_bibtex_keywords:
     pdf,
     poster,
     preview,
+    publication_priority,
     selected,
     slides,
     supp,
@@ -383,7 +381,7 @@ max_author_limit: 3 # leave blank to always show all authors
 more_authors_animation_delay: 10 # more authors are revealed on click using animation; smaller delay means faster animation
 
 # Enables publication thumbnails. If disabled, none of the publications will display thumbnails, even if specified in the bib entry.
-enable_publication_thumbnails: true
+enable_publication_thumbnails: false
 
 # -----------------------------------------------------------------------------
 # Jekyll Link Attributes
@@ -403,7 +401,7 @@ external_links:
 # MAKE SURE imagemagick is installed and on your PATH before enabling imagemagick. In a terminal, run:
 #   convert -version
 imagemagick:
-  enabled: true # enables responsive images for your site (recommended, see https://github.com/alshedivat/al-folio/issues/537)
+  enabled: false # use original images; avoids a fragile ImageMagick dependency during builds
   widths:
     - 480
     - 800
