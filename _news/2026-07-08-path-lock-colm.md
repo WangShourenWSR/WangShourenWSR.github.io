@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-My first-author paper [**Path-Lock Expert**](https://arxiv.org/abs/2604.27201) was accepted to **COLM 2026**.
+My first-author paper [Path-Lock Expert](https://arxiv.org/abs/2604.27201) was accepted to COLM 2026.
