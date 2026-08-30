@@ -144,13 +144,6 @@
       "releaseDate": "2025-04-10",
       "url": "https://arxiv.org/abs/2504.07425",
       "summary": "Combines diverse DRL opponents with an LLM hyper-agent to improve fighting-game enjoyment."
-    },
-    {
-      "name": "Deep Learning Method for Suit Recognition",
-      "publisher": "Journal of Textile Research",
-      "releaseDate": "2019-04-01",
-      "url": "",
-      "summary": "Applied deep learning to suit-image recognition."
     }
   ],
   "projects": [
