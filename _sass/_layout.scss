@@ -40,6 +40,128 @@ body.sticky-bottom-footer {
 
 // TODO: redefine content layout.
 
+// Homepage introduction
+.post-header .desc a.about-subtitle-affiliation {
+  color: var(--global-text-color-light);
+
+  &:hover {
+    color: var(--global-theme-color);
+  }
+}
+
+.about-intro {
+  margin: 0.35rem 0 1.35rem;
+
+  p {
+    margin: 0;
+  }
+
+  a {
+    color: inherit;
+    text-decoration: underline;
+    text-decoration-color: var(--global-divider-color);
+    text-decoration-thickness: 1px;
+    text-underline-offset: 0.16em;
+
+    &:hover {
+      color: var(--global-theme-color);
+      text-decoration-color: currentColor;
+    }
+  }
+}
+
+.about-intro__label {
+  color: var(--global-text-color-light);
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  line-height: 1.4;
+  text-transform: uppercase;
+}
+
+.about-intro__current {
+  display: grid;
+  grid-template-columns: 5.8rem minmax(0, 1fr);
+  padding: 0.25rem 0 1.05rem;
+
+  p {
+    font-size: 1.05rem;
+    line-height: 1.7;
+  }
+}
+
+.about-intro__lab {
+  display: grid;
+  grid-template-columns: 5.8rem minmax(0, 1fr);
+  margin-bottom: 1.05rem;
+  padding: 0.9rem 1rem;
+  border-left: 3px solid var(--global-theme-color);
+  background: color-mix(in srgb, var(--global-theme-color) 5%, transparent);
+
+  p {
+    display: flex;
+    flex-direction: column;
+    gap: 0.1rem;
+  }
+
+  a.about-intro__lab-name {
+    color: var(--global-theme-color);
+    font-size: 1.05rem;
+    font-weight: 650;
+    text-decoration: none;
+  }
+
+  p span {
+    color: var(--global-text-color-light);
+    font-size: 0.88rem;
+    line-height: 1.45;
+  }
+}
+
+.about-intro__previous {
+  display: grid;
+  grid-template-columns: 5.8rem minmax(0, 1fr);
+
+  p {
+    color: var(--global-text-color-light);
+    font-size: 0.94rem;
+    line-height: 1.65;
+  }
+
+  a {
+    color: var(--global-text-color-light);
+  }
+}
+
+.about-intro__research {
+  display: grid;
+  grid-template-columns: 5.8rem minmax(0, 1fr);
+  padding-top: 1.15rem;
+  border-top: 1px solid var(--global-divider-color);
+  line-height: 1.6;
+}
+
+@media (max-width: 575.98px) {
+  .about-intro__current,
+  .about-intro__lab,
+  .about-intro__previous,
+  .about-intro__research {
+    display: block;
+  }
+
+  .about-intro__label {
+    margin-bottom: 0.3rem;
+  }
+
+  .about-intro__research .about-intro__label {
+    display: block;
+  }
+
+  .about-intro__lab {
+    padding: 0.85rem 1rem;
+  }
+}
+
 /******************************************************************************
  * Publications
  ******************************************************************************/
