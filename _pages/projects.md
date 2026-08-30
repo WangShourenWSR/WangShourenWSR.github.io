@@ -1,11 +1,11 @@
 ---
 layout: page
-title: projects
+title: Projects
 permalink: /projects/
 description: Research directions, open-source systems, and selected earlier work.
 nav: true
 nav_order: 3
-display_categories: [research, open-source, earlier work]
+display_categories: [open-source, research, earlier work]
 horizontal: false
 ---
 
@@ -15,7 +15,14 @@ horizontal: false
   <!-- Display categorized projects -->
   {% for category in page.display_categories %}
   <a id="{{ category }}" href=".#{{ category }}">
-    <h2 class="category">{{ category }}</h2>
+    {% if category == "open-source" %}
+      {% assign category_label = "Open Source" %}
+    {% elsif category == "earlier work" %}
+      {% assign category_label = "Earlier Work" %}
+    {% else %}
+      {% assign category_label = "Research" %}
+    {% endif %}
+    <h2 class="category">{{ category_label }}</h2>
   </a>
   {% assign categorized_projects = site.projects | where: "category", category %}
   {% assign sorted_projects = categorized_projects | sort: "importance" %}

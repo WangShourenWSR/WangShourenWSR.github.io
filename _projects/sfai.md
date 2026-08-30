@@ -3,7 +3,7 @@ layout: page
 title: Enhancing Fighting-Game Enjoyment with DRL and LLM Agents
 description: A two-tier system that combines diverse deep-reinforcement-learning opponents with an LLM hyper-agent that adapts opponent selection to player data and feedback.
 img: assets/img/projects/sfai/cover.png
-importance: 1
+importance: 4
 category: research
 related_publications: true
 github: https://github.com/SR-A-W/fighting-game-two-tier-agent-system

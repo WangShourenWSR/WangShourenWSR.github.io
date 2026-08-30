@@ -2,7 +2,7 @@
 layout: page
 title: Efficient Protein Language Models
 description: A taxonomy and practical survey of data, architecture, training, and inference efficiency in protein language models.
-importance: 2
+importance: 5
 category: research
 related_publications: true
 github: https://github.com/SR-A-W/efficient-protein-language-model-survey
