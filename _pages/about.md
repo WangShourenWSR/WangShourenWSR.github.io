@@ -16,7 +16,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I'm Shouren Wang, a PhD student in Computer Science at [Case Western Reserve University](https://case.edu/), advised by Prof. [Xiaotian Han](https://engineering.case.edu/about/school-directory/xiaotian-han) and Prof. [Vipin Chaudhary](https://engineering.case.edu/about/school-directory/vipin-chaudhary). Before this, I earned an M.S. in Computer Engineering from [New York University](https://www.nyu.edu/) and a B.E. in Digital Media Technology from [Hunan University](https://www.hnu.edu.cn/).
+I'm Shouren Wang, a PhD student in Computer Science at [Case Western Reserve University](https://case.edu/), advised by Prof. [Xiaotian Han](https://engineering.case.edu/about/school-directory/xiaotian-han) and Prof. [Vipin Chaudhary](https://engineering.case.edu/about/school-directory/vipin-chaudhary). I am a member of the [Center for Performant, Embodied, Agentic and Trustworthy AI (PEATAI)](https://case-peatai.github.io/). Before this, I earned an M.S. in Computer Engineering from [New York University](https://www.nyu.edu/), where I was part of the [Game Innovation Lab](https://game.engineering.nyu.edu/), and a B.E. in Digital Media Technology from [Hunan University](https://www.hnu.edu.cn/).
 
 My current work broadly concerns large language model reasoning, post-training, efficient language models, and AI agent systems.
 
