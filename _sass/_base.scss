@@ -654,6 +654,54 @@ footer.sticky-bottom {
   }
 }
 
+// Long-form project pages
+
+.project-figure {
+  margin: 1.75rem auto;
+  text-align: center;
+
+  img {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    background: white;
+    border-radius: 0.35rem;
+  }
+
+  figcaption {
+    margin-top: 0.6rem;
+    color: var(--global-text-color-light);
+    font-size: 0.9rem;
+    line-height: 1.45;
+  }
+}
+
+.project-figure--narrow {
+  max-width: 760px;
+}
+
+.project-figure-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+  margin: 1.75rem 0;
+
+  .project-figure {
+    margin: 0;
+  }
+}
+
+.project-figure-grid--two {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+@media (max-width: 767px) {
+  .project-figure-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
 // Publications
 
 .publications {

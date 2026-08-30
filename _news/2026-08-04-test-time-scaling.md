@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our survey [**Test-Time Scaling in Reasoning LLMs**](https://arxiv.org/abs/2608.04001) is now available on arXiv.
+Our survey [Test-Time Scaling in Reasoning LLMs](https://arxiv.org/abs/2608.04001) is now available on arXiv.
