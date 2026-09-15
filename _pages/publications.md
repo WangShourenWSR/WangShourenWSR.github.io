@@ -2,7 +2,7 @@
 layout: page
 permalink: /publications/
 title: Publications
-description: Publications and preprints grouped by year.
+description: Grouped by first public release; venue years are shown in each entry.
 nav: true
 nav_order: 2
 ---
